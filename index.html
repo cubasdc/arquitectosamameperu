@@ -54,7 +54,7 @@
           "name": " Arquitectos - Tato Samamé",
           "image": "https://arquitectosamameperu.com/logo.png",
           "url": "https://arquitectosamameperu.com",
-          "telephone": "+5190100215",
+          "telephone": "+51976812300",
           "email": "info@arquitectosamameperu.com",
           "address": {
             "@type": "PostalAddress",
@@ -113,7 +113,7 @@
         .container { width: 90%; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--spacing); }
         .btn {
             display: inline-block;
-            background-color: var(--accent);
+            background-color: #844606;/*var(--accent);*/
             color: var(--white);
             padding: 0.75rem 1.5rem;
             border-radius: 6px;
@@ -162,7 +162,7 @@
         /* Sections General */
         section { padding: 4rem 0; }
         .section-title { text-align: center; margin-bottom: 3rem; }
-        .section-title p { color: var(--accent); font-weight: 600; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; }
+        .section-title p { color: #844606;/*var(--accent);*/font-weight: 600; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; }
 
         /* About Section */
         .about-grid {
@@ -219,6 +219,7 @@
 
         /* Why Us */
         .value-prop { background-color: var(--primary); color: var(--white); }
+        .value-prop h3{color:#9CB0DD;}
         .value-prop h2 { color: var(--white); }
         .value-prop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; }
         .value-item { background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 8px; }
@@ -297,7 +298,7 @@
             <div class="container">
                 <h1>Diseño Exclusivo y Construcción Eficiente en Todo el Perú</h1>
                 <p>Construye con un arquitecto de experiencia al mismo costo de un maestro de obra. Diseño, planos, construcción y trámites legales con <strong>Tato Samamé</strong>.</p>
-                <a href="https://wa.me/5190100215" class="btn">Cotizar sin compromiso</a>
+                <a href="https://wa.me/51976812300" class="btn">Cotizar sin compromiso</a>
             </div>
         </section>
 
@@ -310,7 +311,7 @@
                             <p>Sobre el Arquitecto</p>
                             <h2>Tato Samamé</h2>
                         </div>
-                        <p>Con años de trayectoria en el norte y centro del Perú, me especializo en materializar sueños. Mi filosofía es simple: la arquitectura de calidad no tiene por qué ser costosa.</p>
+                        <p>Con más de <span id="years-experience"></span> años de trayectoria en el norte y centro del Perú, me especializo en materializar sueños. Mi filosofía es simple: la arquitectura de calidad no tiene por qué ser costosa.</p>
                         <p>Muchos clientes valoran que <strong>me encargo personalmente</strong> de cada diseño creativo. Aunque esto pueda requerir un tiempo de espera, garantiza un resultado único y funcional.</p>
                         <ul>
                             <li><span class="badge">CAP 6745</span> Colegio de Arquitectos del Perú</li>
@@ -341,7 +342,7 @@
                     <!-- Servicio 1 -->
                     <article class="service-card">
                         <h3>Construcción y Obra</h3>
-                        <p style="font-size: 0.9rem; color: var(--accent); font-weight: bold; margin-bottom: 1rem;">¡Costo de albañil, calidad de arquitecto!</p>
+                        <p style="font-size: 0.9rem; color: #844606 /*var(--accent)*/; font-weight: bold; margin-bottom: 1rem;">¡Costo de albañil, calidad de arquitecto!</p>
                         <p>Servicio estrella donde usted contrata a un profesional pero paga tarifas competitivas de mercado. Incluye supervisión de obra si ya tiene constructora.</p>
                         <ul class="service-list">
                             <li>Obra nueva (Casas, Edificios, Locales).</li>
@@ -479,8 +480,8 @@
                         <p>Conversa conmigo sin compromiso. Si estás en otra ciudad, podemos coordinar una videollamada o una visita técnica.</p>
                         
                         <div style="margin-top: 2rem;">
-                            <a href="tel:+5190100215">📞 90100215</a>
-                            <a href="https://wa.me/5190100215">💬 WhatsApp: 90100215</a>
+                            <a href="tel:+51976812300">📞 976812300</a>
+                            <a href="https://wa.me/51976812300">💬 WhatsApp: 976812300</a>
                             <a href="mailto:info@arquitectosamameperu.com">✉️ info@arquitectosamameperu.com</a>
                             <a href="https://www.instagram.com/tatosamame/" target="_blank">📷 @tatosamame</a>
                             <a href="https://web.facebook.com/tato.samame/" target="_blank">📷 @tato.samame</a>
@@ -518,7 +519,7 @@
                     <p>Diseño y Construcción</p>
                 </div>
                 <div>
-                    <p>&copy; 2024 Tato Samamé. Todos los derechos reservados.</p>
+                    <p>&copy; <script>document.write(new Date().getFullYear());</script> Tato Samamé. Todos los derechos reservados.</p>
                 </div>
             </div>
         </div>
@@ -530,7 +531,7 @@
     </footer>
 
     <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/5190100215" class="wa-float" aria-label="Chat en WhatsApp" target="_blank">
+    <a href="https://wa.me/51976812300" class="wa-float" aria-label="Chat en WhatsApp" target="_blank">
         <svg width="35" height="35" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
             <path d="M12.0316 0C5.39798 0 0 5.38531 0 12.0024C0 14.3312 0.669866 16.4883 1.83226 18.3306L0.638706 22.6865C0.548489 23.0163 0.849924 23.317 1.1805 23.2291L5.61749 22.057C7.42621 23.1672 9.55172 23.8048 11.8318 23.8048C18.6647 23.8048 24.2251 18.4239 24.2251 11.8024C24.2251 5.18086 18.8489 0 12.2152 0H12.0316ZM12.0833 21.7587C10.0556 21.7587 8.16335 21.196 6.54922 20.2177L6.20822 20.0118L2.73033 20.9388L3.68412 17.5583L3.4673 17.2001C2.42845 15.4952 1.88099 13.5284 1.88099 11.5161C1.88099 5.95294 6.43572 1.42857 12.0833 1.42857C17.7309 1.42857 22.3214 5.98661 22.3214 11.5498C22.3214 17.113 17.7309 21.7587 12.0833 21.7587Z"/>
         </svg>
@@ -563,5 +564,21 @@
             });
         });
     </script>
-</body>
+<script>
+   // Cálculo de años de experiencia
+        document.addEventListener('DOMContentLoaded', function() {
+            const añoActual = new Date().getFullYear();
+            const año2005 = 2005;
+            const diferencia = añoActual - año2005;
+            document.getElementById('years-experience').textContent = diferencia;
+            document.getElementById('years-experience-text').textContent = diferencia;
+            
+            
+        });
+            </script>
+
+
+
+
+<script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z" async></script></body>
 </html>
