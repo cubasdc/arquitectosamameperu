@@ -18,19 +18,20 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://arquitectosamameperu.com/">
     
+    
     <meta property="og:image" content="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/arquitecto_tato_samame_peru.webp"> 
-    <meta property="og:image:alt" content="Arquitecto Tato Samamé - Diseño, construcción y saneamiento en Perú">
+<meta property="og:image:alt" content="Arquitecto Tato Samamé - Diseño, construcción y saneamiento en Perú">
     <meta property="og:locale" content="es_PE">
     
-    <meta name="geo.region" content="PE-LIM">
+<meta name="geo.region" content="PE-LIM">
     <meta name="geo.placename" content="Lima">
 
-    <!-- Favicon -->
+<!-- Favicon -->
     <link rel="icon" href="https://arquitectosamameperu.com/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="https://arquitectosamameperu.com/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://arquitectosamameperu.com/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://arquitectosamameperu.com/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="https://arquitectosamameperu.com/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://arquitectosamameperu.com/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -76,8 +77,9 @@
     }
     </script>
     
-    <link rel="preload" as="image" href="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/arquitecto_tato_samame_peru.webp" fetchpriority="high" >
+<link rel="preload" as="image" href="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/arquitecto_tato_samame_peru.webp" fetchpriority="high" >
     
+
     <style>
         /* CSS CRITICO E INLINE PARA RENDIMIENTO */
         :root {
@@ -218,8 +220,6 @@
             font-size: 0.9rem;
             border-radius: 6px;
             object-fit: cover;
-            cursor: pointer; /* Indica que es clickeable */
-            transition: opacity 0.2s;
         }
 
         /* Why Us */
@@ -276,100 +276,11 @@
             .about-grid, .contact-wrapper { grid-template-columns: 1fr; }
             .project-gallery { grid-template-columns: 1fr; }
         }
-
-        /* ========== ESTILOS PARA ZOOM DE IMÁGENES (LIGHTBOX) ========== */
-        .zoom-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.9);
-            display: none;
-            justify-content: center;
-            align-items: center;
-            z-index: 10000;
-            cursor: pointer;
-            backdrop-filter: blur(3px);
-        }
-        .zoom-overlay.active {
-            display: flex;
-        }
-        .zoom-overlay img {
-            max-width: 90%;
-            max-height: 90%;
-            object-fit: contain;
-            border-radius: 4px;
-            box-shadow: 0 0 30px rgba(0,0,0,0.5);
-            cursor: default;
-            transition: transform 0.2s ease;
-        }
-        .zoom-close {
-            position: absolute;
-            top: 20px;
-            right: 30px;
-            color: white;
-            font-size: 40px;
-            font-weight: 300;
-            cursor: pointer;
-            user-select: none;
-            transition: opacity 0.2s;
-            background: rgba(0,0,0,0.3);
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            line-height: 1;
-        }
-        .zoom-close:hover {
-            opacity: 0.7;
-        }
-        /* Evitar scroll del body cuando el overlay está activo */
-        body.zoom-active {
-            overflow: hidden;
-        }
-
-
-
-        /* Contenedor del video thumbnail */
-.video-thumb {
-    position: relative;
-    display: block;
-    text-decoration: none;
-}
-
-/* Ícono de play centrado */
-.play-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3rem;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    pointer-events: none; /* Permite que el clic pase al enlace y no bloquee el zoom */
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    border: 2px solid rgba(255,255,255,0.5);
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-/* Efecto hover para el ícono (opcional) */
-.video-thumb:hover .play-icon {
-    transform: translate(-50%, -50%) scale(1.1);
-    background-color: rgba(220, 38, 38, 0.9);
-}
     </style>
 </head>
 <body>
     
+
     <header>
         <div class="container nav-container">
             <a href="#" class="logo">Arquitecto <span>Tato Samamé</span></a>
@@ -413,7 +324,13 @@
                         </ul>
                     </div>
                     <div>
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/arquitecto_tato_samame_peru.webp" alt="Arquitecto Tato Samamé Perú"  loading="lazy" width="350" height="350" >
+                        <img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/arquitecto_tato_samame_peru.webp" alt="Arquitecto Tato Samamé Perú"  loading="lazy" width="350" height="350" >
+
+    <!--
+    <img class="img-placeholder" src="arquitecto_tato_samame_peru.webp" alt="Arquitecto Tato Samamé Perú"  loading="lazy" 
+    width="546" 
+    height="546">-->
+                        
                     </div>
                 </div>
             </div>
@@ -509,25 +426,28 @@
                         <p style="margin-top: 1rem;">A continuación una pequeña muestra de algunos de mis trabajos realizados.</p>
                     </div>
                     <div class="project-gallery">
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(17).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(2).webp" alt="Arquitecto Tato Samamé Perú"  loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(1).webp" alt="Arquitecto Tato Samamé Perú"  loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(3).webp" alt="Arquitecto Tato Samamé Perú"  loading="lazy" width="350" height="350" >                  
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(4).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(7).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(8).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(9).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(10).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(11).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(12).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(13).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(14).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(15).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(16).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(18).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(19).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(20).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
-                        <img class="img-placeholder img-zoom" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(21).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(17).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(2).webp" alt="Arquitecto Tato Samamé Perú"  loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(1).webp" alt="Arquitecto Tato Samamé Perú"  loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(3).webp" alt="Arquitecto Tato Samamé Perú"  loading="lazy" width="350" height="350" >                  
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(4).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(7).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(8).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(9).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(10).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(11).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(12).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(13).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(14).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(15).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(16).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(18).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(19).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(20).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+<img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(21).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" >
+
+                      
                     </div>
                 </article>
 
@@ -535,23 +455,29 @@
                 <article class="project-card">
                     <div class="project-info">
                         <h3>Visitas virtuales 3D</h3>
+                       <!-- <div class="project-meta">
+                            <span>📍 Urb. Santa Victoria</span>
+                            <span>📐 Saneamiento y Remodelación</span>
+                            <span>🏢 5 Pisos</span>
+                        </div> -->
                         <p style="margin-top: 1rem;">En mi instagram puedes ver algunos vídeos de mis trabajos realizados.</p>
                     </div>
-                  <div class="project-gallery">
-    <a href="https://www.instagram.com/p/CmK64EhvU_X/?l=1" class="video-thumb">
-        <img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(5).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350">
-        <span class="play-icon">▶</span>
-    </a>
-    <a href="https://www.instagram.com/p/CX7YVBRvnOE/?l=1" class="video-thumb">
-        <img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(6).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350">
-        <span class="play-icon">▶</span>
-    </a>
-    <a href="https://www.instagram.com/p/CNy-HPGnGSy/?l=1" class="video-thumb">
-        <img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(22).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350">
-        <span class="play-icon">▶</span>
-    </a>
-</div>
+                    <div class="project-gallery">
+                        <a href="https://www.instagram.com/p/CmK64EhvU_X/?l=1">
+                        <img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(5).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" ></a>
+                             <a href="https://www.instagram.com/p/CX7YVBRvnOE/?l=1">
+                        <img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(6).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" ></a>
+                   <a href="https://www.instagram.com/p/CNy-HPGnGSy/?l=1">
+                        <img class="img-placeholder" src="https://arquitectosamameperu.com/cdn-cgi/image/width=auto,format=auto,fit=cover,/images/arquitecto_samame_peru(22).webp" alt="Arquitecto Tato Samamé Perú" loading="lazy" width="350" height="350" ></a>
+
+
+
+
+
+
+                    </div>
                 </article> 
+
             </div>
         </section>
 
@@ -610,6 +536,11 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
     </footer>
 
     <!-- WhatsApp Floating Button -->
@@ -619,93 +550,31 @@
         </svg>
     </a>
 
-    <!-- ========== OVERLAY PARA ZOOM DE IMÁGENES ========== -->
-    <div id="zoomOverlay" class="zoom-overlay" onclick="closeZoom(event)">
-        <span class="zoom-close" onclick="closeZoom(event)">&times;</span>
-        <img id="zoomImage" src="" alt="Ampliación">
-    </div>
-
-    <!-- Scripts principales -->
+    <!-- Minimal JS for interactivity without blocking -->
     <script>
-        // Mobile Menu Toggle y Smooth Scroll (código existente mejorado)
         document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
             const toggle = document.querySelector('.menu-toggle');
             const nav = document.querySelector('#nav-menu');
             
-            if (toggle && nav) {
-                toggle.addEventListener('click', () => {
-                    nav.classList.toggle('active');
-                    const isExpanded = nav.classList.contains('active');
-                    toggle.setAttribute('aria-expanded', isExpanded);
-                });
-            }
+            toggle.addEventListener('click', () => {
+                nav.classList.toggle('active');
+                const isExpanded = nav.classList.contains('active');
+                toggle.setAttribute('aria-expanded', isExpanded);
+            });
 
+            // Smooth Scroll for Anchors (Polyfill-like behavior for older browsers is handled by css scroll-behavior, this is for closing menu)
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
-                    if(nav && nav.classList.contains('active')) {
+                    if(nav.classList.contains('active')) {
                         nav.classList.remove('active');
                     }
-                    const targetId = this.getAttribute('href');
-                    if (targetId !== '#') {
-                        const target = document.querySelector(targetId);
-                        if (target) {
-                            target.scrollIntoView({ behavior: 'smooth' });
-                        }
-                    }
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
                 });
             });
         });
-
-        // ========== FUNCIONALIDAD DE ZOOM EN IMÁGENES ==========
-        // Variables del overlay
-        const overlay = document.getElementById('zoomOverlay');
-        const zoomImg = document.getElementById('zoomImage');
-
-        // Abrir zoom al hacer clic en cualquier imagen con clase .img-placeholder
-        document.addEventListener('click', function(e) {
-            // Buscamos si el clic fue en una imagen o dentro de un enlace con imagen
-            let target = e.target.closest('img.img-zoom');
-            if (!target) return; // Solo imágenes con esa clase
-            
-            e.preventDefault();  // Evita cualquier comportamiento por defecto (útil dentro de <a>)
-            e.stopPropagation(); // Evita que el evento siga propagándose (útil si el padre también tiene listener)
-
-            const imgSrc = target.getAttribute('src');
-            if (imgSrc) {
-                zoomImg.setAttribute('src', imgSrc);
-                overlay.classList.add('active');
-                document.body.classList.add('zoom-active'); // Evita scroll detrás
-            }
-        });
-
-        // Función para cerrar el zoom (se llama desde onclick en HTML)
-        window.closeZoom = function(event) {
-            // Si se hace clic en el overlay (fondo) o en el botón X, cerramos
-            if (event.target === overlay || event.target.classList.contains('zoom-close')) {
-                overlay.classList.remove('active');
-                document.body.classList.remove('zoom-active');
-                // Opcional: limpiar src para liberar memoria
-                // zoomImg.setAttribute('src', '');
-            }
-        };
-
-        // Cerrar con tecla ESC
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && overlay.classList.contains('active')) {
-                overlay.classList.remove('active');
-                document.body.classList.remove('zoom-active');
-            }
-        });
-
-        // Prevenir que el clic sobre la imagen ampliada cierre el overlay
-        // (solo se cierra al hacer clic en el fondo o en la X)
-        zoomImg.addEventListener('click', function(e) {
-            e.stopPropagation();
-        });
-    </script>
-
-    <!-- Instant Page (opcional, mejora velocidad de navegación) -->
-    <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z" async></script>
-</body>
+    </script><script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z" async></script></body>
 </html>
