@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-
 # Replace the URL below with your actual sitemap URL
 Sitemap: https://arquitectosamameperu.com/sitemap.xml
